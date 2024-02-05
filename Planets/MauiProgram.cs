@@ -9,9 +9,10 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
-			});
+				fonts.AddFont("Montserrat-Bold.ttf", "BoldFont");
+				fonts.AddFont("Montserrat-Medium.ttf", "MediumFont");
+                fonts.AddFont("Montserrat-Semibold.ttf", "SemiboldFont");
+            });
 
 		return builder.Build();
 	}
