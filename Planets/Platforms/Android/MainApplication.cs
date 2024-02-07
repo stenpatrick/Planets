@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Planets;
+namespace TARpe22MauiPlanets;
 
 [Application]
 public class MainApplication : MauiApplication

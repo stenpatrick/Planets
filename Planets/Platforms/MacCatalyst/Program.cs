@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Planets;
+namespace TARpe22MauiPlanets;
 
 public class Program
 {

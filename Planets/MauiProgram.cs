@@ -1,4 +1,4 @@
-﻿namespace Planets;
+﻿namespace TARpe22MauiPlanets;
 
 public static class MauiProgram
 {
@@ -9,9 +9,9 @@ public static class MauiProgram
 			.UseMauiApp<App>()
 			.ConfigureFonts(fonts =>
 			{
-				fonts.AddFont("Montserrat-Bold.ttf", "BoldFont");
-				fonts.AddFont("Montserrat-Medium.ttf", "MediumFont");
-                fonts.AddFont("Montserrat-Semibold.ttf", "SemiboldFont");
+                fonts.AddFont("Montserrat-Medium.ttf", "RegularFont");
+                fonts.AddFont("Montserrat-SemiBold.ttf", "MediumFont");
+                fonts.AddFont("Montserrat-Bold.ttf", "BoldFont");
             });
 
 		return builder.Build();

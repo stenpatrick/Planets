@@ -1,4 +1,4 @@
-﻿namespace Planets;
+﻿namespace TARpe22MauiPlanets;
 
 public partial class MainPage : ContentPage
 {

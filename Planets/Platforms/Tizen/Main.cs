@@ -2,7 +2,7 @@ using System;
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace Planets;
+namespace TARpe22MauiPlanets;
 
 class Program : MauiApplication
 {

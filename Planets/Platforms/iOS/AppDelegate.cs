@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Planets;
+namespace TARpe22MauiPlanets;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
