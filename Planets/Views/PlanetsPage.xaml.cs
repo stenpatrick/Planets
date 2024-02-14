@@ -5,7 +5,8 @@ namespace TARpe22MauiPlanets.Views;
 
 public partial class PlanetsPage : ContentPage
 {
-	public PlanetsPage()
+    private const uint AnimationDuration = 800u;
+    public PlanetsPage()
 	{
 		InitializeComponent();
 
@@ -17,6 +18,12 @@ public partial class PlanetsPage : ContentPage
 	{
 
 	}
+    async void ProfilePic_Clicked(System.Object sender, System.EventArgs e)
+    {
+        _ = MainContentGrid.TranslateTo(-this.Width * 0.5, Width - this.Height * 0.1, AnimationDuration, Easing.CubicIn);
+        await MainContentGrid.ScaleTo(0.8, AnimationDuration);
+        _ = MainContentGrid.FadeTo(0.8, AnimationDuration);
+    }
 
     private void ApiPic_Clicked(System.Object sender, System.EventArgs e)
     {
