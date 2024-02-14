@@ -1,21 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace TARpe22MauiPlanets.Models
+﻿namespace TARpe22MauiPlanets.Models
 {
     public class Planet
     {
         public string Name { get; set; }
-
         public string Subtitle { get; set; }
         public string HeroImage { get; set; }
         public string Description { get; set; }
+
         public Color AccentColorStart { get; set; }
         public Color AccentColorEnd { get; set; }
         public List<string> Images { get; set; }
+
         public Brush Background
         {
             get
@@ -27,7 +22,8 @@ namespace TARpe22MauiPlanets.Models
                 var bgBrush = new LinearGradientBrush(
                     gradientStops,
                     new Point(0.0, 0.0),
-                    new Point(1.0, 1.0 ));
+                    new Point(1.0, 1.0));
+
                 return bgBrush;
             }
         }

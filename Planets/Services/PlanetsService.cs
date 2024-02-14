@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using TARpe22MauiPlanets.Models;
+﻿using TARpe22MauiPlanets.Models;
+
 
 namespace TARpe22MauiPlanets.Services
 {
@@ -26,7 +22,7 @@ namespace TARpe22MauiPlanets.Services
                     "https://science.nasa.gov/_ipx/w_2048&f_webp/https://smd-cms.nasa.gov/wp-content/uploads/2023/05/pia19422-mercury.jpg"
                 }
             },
-            
+
             new()
             {
                 Name = "Venus",
@@ -139,12 +135,12 @@ namespace TARpe22MauiPlanets.Services
         public static List<Planet> GetFeaturedPlanets()
         {
             var random = new Random();
-            var randomizedPlanets = planets.OrderBy((item => random.Next()));
+            var randomizedPlanets = planets.OrderBy(item => random.Next());
+
             return randomizedPlanets.Take(2).ToList();
         }
 
-        public static List<Planet> GetAllPlanet()
+        public static List<Planet> GetAllPlanets()
             => planets;
-    
     }
 }
