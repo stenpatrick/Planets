@@ -130,6 +130,82 @@ namespace TARpe22MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
+            new()
+            {
+                Name = "Pluto",
+                Subtitle="Pluto was once our solar system's ninth planet, but has been reclassified as a dwarf planet. It's located in the Kuiper Belt.",
+                HeroImage="pluto.png",
+                Description="Pluto is a dwarf planet located in a distant region of our solar system beyond Neptune known as the Kuiper Belt. Pluto was long considered our ninth planet, but the International Astronomical Union reclassified Pluto\r\n\r\nas a dwarf planet in 2006.\r\n\r\nNASA's New Horizons was the first spacecraft to explore Pluto up close, flying by the dwarf planet and its moons in 2015. It found that Pluto is a complex world with mountains, valleys, plains, craters, and apparently even glaciers.\r\n\r\nPluto was discovered in 1930 by astronomer Clyde Tombaugh at the Lowell Observatory in Flagstaff, Arizona. It was named by 11-year-old Venetia Burney of Oxford, England.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),                
+                Images = new()
+                {
+                   "",
+                   "",
+                   ""
+                }
+            },
+            new()
+            {
+                Name = "Ceres",
+                Subtitle="Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter. It was explored by NASA's Dawn spacecraft.",
+                HeroImage="ceres.png",
+                Description="Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, and it's the only dwarf planet located in the inner solar system. It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801. When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to be explored by a spacecraft.\r\n\r\nCalled an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that scientists classified it as a dwarf planet in 2006. Even though Ceres comprises 25% of the asteroid belt's total mass, Pluto is still 14 times more massive.\r\n\r\nCeres is named for the Roman goddess of corn and harvests. The word cereal comes from the same name.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),                
+                Images = new()
+                {
+                   "",
+                   "",
+                   ""
+                }
+            },
+            new()
+            {
+                Name = "Haumea",
+                Subtitle="Dwarf planet Haumea was originally designated 2003 EL61 (and nicknamed Santa by one discovery team). Haumea is located in the Kuiper Belt, a doughnut-shaped region of icy bodies beyond the orbit of Neptune. ",
+                HeroImage="haumea.png",
+                Description="Haumea is an oval-shaped dwarf planet that is roughly the same size as Pluto. It is one of the fastest rotating large objects in our solar system. The fast spin distorts Haumea's shape, making this dwarf planet look like a football. Everything we know about Haumea is from observations with ground-based telescopes from around the world.\\r\\n\\r\\nTwo teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004. The International Astronomical Union’s Gazetteer of Planetary Nomenclature lists the discovery location as Sierra Nevada Observatory in Spain on Mar. 7, 2003, but no official discoverer is listed",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),                
+                Images = new()
+                {
+                   "",
+                   "",
+                   ""
+                }
+            },
+            new()
+            {
+                Name = "Makemake",
+                Subtitle="Makemake was named after the Rapanui god of fertility.",
+                HeroImage="makemake.png",
+                Description="Dwarf planet Makemake – along with Pluto, Haumea, and Eris – is located in the Kuiper Belt, a donut-shaped region of icy bodies beyond the orbit of Neptune. Makemake is slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt as seen from Earth while Pluto is the brightest. It takes about 305 Earth years for this dwarf planet to make one trip around the Sun.\r\n\r\nMakemake holds an important place in the history of solar system studies because it was one of the objects – along with Eris – whose discovery prompted the International Astronomical Union to reconsider the definition of a planet, and to create the new group of dwarf planets.\r\n\r\nMakemake was first observed in March 2005 by M.E. Brown, C.A. Trujillo, and D.L. Rabinowitz at the Palomar Observatory, California. Its unofficial codename was Easterbunny, Brown said, \"in honor of the fact that it was discovered just a few days past Easter.\" Before this dwarf planet was confirmed, its provisional name was 2005 FY9. In 2016, NASA’s Hubble Space Telescope spotted a small, dark moon orbiting Makemake.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),                
+                Images = new()
+                {
+                   "",
+                   "",
+                   ""
+                }
+            },
+            new()
+            {
+                Name = "Eris",
+                Subtitle="Eris is one of the largest known dwarf planets in our solar system. It's about the same size as Pluto but is three times farther from the Sun.",
+                HeroImage="eris.png",
+                Description="The discovery of Eris help trigger a debate in the scientific community that led to the International Astronomical Union's decision in 2006 to clarify the definition of a planet. Pluto, Eris, and other similar objects are now classified as dwarf planets.\r\n\r\nEris was discovered on Jan. 5, 2005, from data obtained on Oct. 21, 2003, during a Palomar Observatory survey of the outer solar system by Mike Brown, a professor of planetary astronomy at the California Institute of Technology; Chad Trujillo of the Gemini Observatory; and David Rabinowitz of Yale University.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),                
+                Images = new()
+                {
+                   "",
+                   "",
+                   ""
+                }
+            },
+
         };
 
         public static List<Planet> GetFeaturedPlanets()
