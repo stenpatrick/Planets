@@ -47,82 +47,82 @@
             <VerticalStackLayout
             Spacing="18">
 
-                <!--Planet image-->
-                <Image 
+            <!--Planet image-->
+            <Image 
                 Source="{Binding HeroImage}"
                 Aspect="AspectFit"
                 HorizontalOptions="Fill"
                 HeightRequest="240"
                 Margin="24,0"/>
 
-                <!--Planet name-->
-                <Label 
+            <!--Planet name-->
+            <Label 
                 Margin="0,-24,0,0"
                 Style="{StaticResource AllPlanetHeaderSubtitleStyle}"
                 Text="{Binding Name}"/>
 
-                <!--Planet Subtitle-->
-                <Label 
+            <!--Planet Subtitle-->
+            <Label 
                 Margin="0,-12,0,0"
                 Style="{StaticResource PageHeaderSubtitleStyle}"
                 Text="{Binding Subtitle}"/>
 
-                <!--Divider-->
-                <Rectangle 
+            <!--Divider-->
+            <Rectangle 
                 HorizontalOptions="Fill"
                 HeightRequest="2"
                 Stroke="Transparent"
                 Fill="{StaticResource LightBorderColor}"/>
 
-                <!--Planet Info-->
-                <Label 
+            <!--Planet Info-->
+            <Label 
                 LineBreakMode="WordWrap"
                 Style="{StaticResource PlanetDetailsTextStyle}"
                 Text="{Binding Description}"/>
 
-                <!--Divider-->
-                <Rectangle 
+            <!--Divider-->
+            <Rectangle 
                 HorizontalOptions="Fill"
                 HeightRequest="2"
                 Stroke="Transparent"
                 Fill="{StaticResource LightBorderColor}"/>
 
-                <!--Planet Images-->
-                <Label 
+            <!--Planet Images-->
+            <Label 
                 Style="{StaticResource PlanetHeaderSubtitleStyle}"
                 Text="Gallery"/>
 
-                <CollectionView 
+            <CollectionView 
                 Margin="0,-6,0,0"
                 HeightRequest="400"
                 WidthRequest="400"
                 ItemsSource="{Binding Images}">
 
-                    <CollectionView.ItemsLayout>
-                        <LinearItemsLayout
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout
                         Orientation="Vertical"
                         ItemSpacing="16">
 
-                        </LinearItemsLayout>
-                    </CollectionView.ItemsLayout>
+                    </LinearItemsLayout>
+                </CollectionView.ItemsLayout>
 
-                    <CollectionView.ItemTemplate>
-                        <DataTemplate>
-                            <Image
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Image
                             Source="{Binding .}"
                             Aspect="AspectFill"
                             HorizontalOptions="Center"
                             VerticalOptions="Center">
-                            </Image>
-                        </DataTemplate>
-                    </CollectionView.ItemTemplate>
+                        </Image>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
 
                 </CollectionView>
 
             </VerticalStackLayout>
-
+        
         </ScrollView>
-
+    
     </Grid>
-
+    
 </ContentPage>
